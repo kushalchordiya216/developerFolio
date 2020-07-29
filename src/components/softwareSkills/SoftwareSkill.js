@@ -14,7 +14,8 @@ export default function SoftwareSkill() {
                 <p>{skills.skillName}</p>
               </li>
             );
-          })}
+          })
+          }
         </ul>
       </div>
     </div>

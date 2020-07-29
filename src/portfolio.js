@@ -7,33 +7,32 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Kushal Chordiya",
+  title: "Hi, I'm Kushal",
+  subTitle: emoji("A Software Developer, passionate about Machine Learning, Data Science & Distributed Systems, with experience building Web applications and microservices with Nodejs, Golang, Python, Java as well as Machine Learning application using Tensorflow, Pytorch, Keras, Scikit-learn and some other cool libraries and frameworks. I'm also interested in Finance, Algorithmic Trading & Big Data Analysis. "),
+  resumeLink: "https://drive.google.com/file/d/1ohJHZtbXBrIuaTZYBxQEGhmtDXR_0mYe/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
-  // Instagram and Twitter are also supported in the links!
+  github: "https://github.com/kushalchordiya216",
+  linkedin: "https://www.linkedin.com/in/kushal-chordiya/",
+  gmail: "chordiyakushal@gmail.com",
+  gitlab: "https://gitlab.com/kushalchordiya216",
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "THE KIND OF DEVELOPER THAT WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop highly scalable, performant and fault tolerant backend services for your applications"),
+    emoji("⚡ Data driven, robust, modular microservices with modern best practices"),
+    emoji("⚡ Machine Learning and Data Sceince pipelines, from research to production"),
+    emoji("⚡ Integration of third party services & platforms such as AWS / Digital Ocean")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -41,59 +40,78 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Golang",
+      fontAwesomeClassname: "devicon-go-plain"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "NGINX",
+      fontAwesomeClassname: "devicon-nginx-original"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "devicon-mongodb-plain"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "devicon-redis-plain" 
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "devicon-django-plain"
+    },
+    {
+      skillName:"Express",
+      fontAwesomeClassname: "devicon-express-original"
+    },
+    {
+      skillName: "React.js",
+      fontAwesomeClassname: "fab fa-react"
+    },
+  ],
+  MLSkills : [
+    {
+      skillName: "Tensorflow",
+    },
+    {
+      skillName: "PyTorch",
+    },
+    {
+      skillName: "Keras",
+    },
+    {
+      skillName: "Scikit-learn",
+    },
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -101,17 +119,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Backend Development",  //Insert stack or technology you have experience in
+      progressPercentage: "85%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Machine Learning",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "Data Structures & Algorithms",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Cloud Computing",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Frontend Development",
+      progressPercentage: "30%"
+    },
   ]
 };
 
@@ -122,10 +148,10 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Software Engineering Intern",  
+      company: "Zubi Infotech Pvt. Ltd.",
+      companylogo: require("./assets/images/zubi.jpeg"),
+      date: "April 2020 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -133,19 +159,12 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Machine Learning Intern",   
+      company: "C-DAC, Pune",
+      companylogo: require("./assets/images/cdac.jpeg"),
+      date: "Januray 2020 – April 2020",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    }
   ]
 };
 
@@ -162,8 +181,8 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PERSONAL PROJECTS I'VE DONE TO HONE MY TECHNICAL SKILLS",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -185,31 +204,20 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "SIH 2019, Finalist",
+      subtitle: "One of five selected teams in the nationwide Smart India Hackathon, 2019, to present a Deep Learning based vocoder for Accent Translation, to convert accent patterns in speech",
+      image: require("./assets/images/SIH.png"),
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Project Link", url: "https://github.com/kushalchordiya216/Accent-Translation" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Publishes an Academic paper",
+      subtitle: "Published a paper entitled Big Data Analysis for Sustainable Cities, at the 11th International Conference on Computing,Communication and Networking Technology",
+      image: require("./assets/images/ICCNT.png"),
+      footerLink: [{name:"Paper", url:""},{name:"Code", url:""}]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
   ]
 };
 
@@ -263,8 +271,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9022149921",
+  email_address: "chordiyakushal@gmail.com"
 };
 
 //Twitter Section
