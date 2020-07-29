@@ -2,7 +2,7 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import {greeting, workExperiences} from "../../portfolio";
+import {workExperiences} from "../../portfolio";
 
 function Header() {
   const exp = workExperiences.viewExperiences;

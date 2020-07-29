@@ -31,7 +31,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop highly scalable, performant and fault tolerant backend services for your applications"),
     emoji("⚡ Data driven, robust, modular microservices with modern best practices"),
-    emoji("⚡ Machine Learning and Data Sceince pipelines, from research to production"),
+    emoji("⚡ Machine Learning and Data Science pipelines, from research to production"),
     emoji("⚡ Integration of third party services & platforms such as AWS / Digital Ocean")
   ],
 
@@ -213,7 +213,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Publishes an Academic paper",
+      title: "Academic Publications",
       subtitle: "Published a paper entitled Big Data Analysis for Sustainable Cities, at the 11th International Conference on Computing,Communication and Networking Technology",
       image: require("./assets/images/ICCNT.png"),
       footerLink: [{name:"Paper", url:""},{name:"Code", url:""}]
