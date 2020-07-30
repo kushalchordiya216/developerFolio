@@ -25,6 +25,7 @@
 .card-subtitle {
   color: #868e96;
   font-size: 20px;
+  text-align: justify;
 }
 
 .certificate-card {

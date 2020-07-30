@@ -6,6 +6,7 @@ import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import Achievement from "./achievement/Achievement";
+import Education from "./Education/Education"
 import Top from "./topbutton/Top";
 import Profile from "./profile/Profile";
 
@@ -20,6 +21,7 @@ export default class Main extends Component {
         <WorkExperience />
         <Projects />
         <Achievement />
+        <Education />
         <Profile />
         <Top />
       </div>

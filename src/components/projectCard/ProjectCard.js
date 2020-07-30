@@ -10,8 +10,8 @@ export default function ProjectCard({ cardInfo }) {
 
       <div className="project-card">
         <div className="certificate-detail-div">
-          <h5 className="card-title">{cardInfo.title}</h5>
-          <p className="card-subtitle">{cardInfo.description}</p>
+          <h5 className="project-card-title">{cardInfo.title}</h5>
+          <p className="project-card-subtitle">{cardInfo.description}</p>
         </div>
         <div className="certificate-card-footer">
           {cardInfo.footer.map((v, i) => {
@@ -24,3 +24,4 @@ export default function ProjectCard({ cardInfo }) {
 
 
 //note: basically the same as achievement card component which defeats the point of components, but i'm too lazy to make a new one
+//TODO: add option to display core technology and languages used

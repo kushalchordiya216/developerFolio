@@ -1,4 +1,4 @@
-.blog-container {
+.edu-container {
   border-radius: 10px;
   color: #586069;
   background-color: #fff;
@@ -8,7 +8,7 @@
   height: 200px;
 }
 
-.blog-title {
+.edu-title {
   color: #262626;
   font-size: 22px;
   line-height: 24px;
@@ -17,6 +17,7 @@
   margin-right: 20px;
   margin-bottom: 14px;
   margin-top: 32px;
+  text-align: center;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -28,7 +29,7 @@
   font-weight: 400;
   line-height: 20px;
   color: #666666;
-  padding: 0px 20px;
+  padding: 5px 20px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -57,7 +58,7 @@
   font-family: courier, sans;
 }
 
-.blog-card {
+.edu-card {
   display: block;
   position: relative;
   background-color: transparent;
@@ -66,10 +67,12 @@
   z-index: 0;
   overflow: hidden;
   height: 100%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 30px 0px;
 }
 
-.blog-card::before {
-  content: "";
+.edu-card::before {
+  content: '';
   position: absolute;
   z-index: -1;
   top: -16px;
@@ -83,55 +86,59 @@
   transition: transform 0.4s ease-out;
 }
 
-.blog-card:hover::before {
+.edu-card:hover::before {
   transform: scale(30);
 }
 
-.blog-card:hover > .small {
+.edu-card:hover > .small {
   transition: all 0.3s ease-out;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.blog-card:hover > h3 {
+.edu-card:hover > h3 {
   transition: all 0.3s ease-out;
   color: #ffffff;
 }
 
-@media screen and (max-width: 480px) and (min-width: 300px), (min-width: 925px) and (max-width: 1024px), (min-width: 1405px) and (max-width: 1550px) {
-  .blog-card:hover::before {
+@media screen and (max-width: 480px) and (min-width: 300px),
+  (min-width: 925px) and (max-width: 1024px),
+  (min-width: 1405px) and (max-width: 1550px) {
+  .edu-card:hover::before {
     transform: scale(30);
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 675px), (min-width: 1025px) and (max-width: 1404px), (min-width: 1551px) {
-  .blog-card:hover::before {
+@media screen and (min-width: 481px) and (max-width: 675px),
+  (min-width: 1025px) and (max-width: 1404px),
+  (min-width: 1551px) {
+  .edu-card:hover::before {
     transform: scale(40);
   }
-  .blog-card::before {
+  .edu-card::before {
     transition: transform 0.45s ease-out;
   }
 }
 
 @media screen and (min-width: 675px) and (max-width: 860px) {
-  .blog-card:hover::before {
+  .edu-card:hover::before {
     transform: scale(50);
   }
-  .blog-card::before {
+  .edu-card::before {
     transition: transform 0.5s ease-out;
   }
 }
 
 @media screen and (min-width: 860px) and (max-width: 924px) {
-  .blog-card:hover::before {
+  .edu-card:hover::before {
     transform: scale(60);
   }
-  .blog-card::before {
+  .edu-card::before {
     transition: transform 0.5s ease-out;
   }
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px) {
-  .blog-title {
+  .edu-title {
     font-size: 18px;
   }
 }

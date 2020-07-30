@@ -21,6 +21,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/kushal-chordiya/",
   gmail: "chordiyakushal@gmail.com",
   gitlab: "https://gitlab.com/kushalchordiya216",
+  phone: "+91-9022149921"
 };
 
 // Your Skills Section
@@ -92,22 +93,22 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-express-original"
     },
     {
-      skillName: "React.js",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
   ],
   MLSkills : [
     {
       skillName: "Tensorflow",
+      iconName: "cib:tensorflow"
     },
     {
       skillName: "PyTorch",
+      iconName: "cib:pytorch"
     },
     {
       skillName: "Keras",
-    },
-    {
-      skillName: "Scikit-learn",
+      iconName: "cib:keras"
     },
   ]
 };
@@ -294,6 +295,25 @@ const podcastSection = {
   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
 };
 
+const educationInfo = {
+  title: emoji("Education 🎓"),
+  subtitle: "My Academic journey so far",
+  education : [
+    {
+      program: "B.E, Computer Engineering",
+      school: "Pune Institute Of Computer Technology",
+      score: "CGPA 9.01",
+      date: "August 2017-Present"
+    },
+    {
+      program: "Higher Secondary Education",
+      school: "P.Jog Junior College",
+      score: "86.7%",
+      date: "June 2015-June 2017"
+    }
+  ]
+}
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
@@ -308,4 +328,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, Projects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, Projects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails, educationInfo};

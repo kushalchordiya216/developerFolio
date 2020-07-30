@@ -11,33 +11,105 @@
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
+  color: #5f6366;
 }
 
-.software-skill-inline > i {
-  color: #868e96;
+#Python i,
+#Python i ~ p {
+  color: #306998;
 }
 
 .software-skill-inline > i:hover {
+  color: #306998;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.software-skill-inline > svg:hover {
+  color: #306998;
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.2));
+}
+
+#JavaScript i,
+#JavaScript i ~ p {
+  color: #f0db4f;
+}
+
+#Java i,
+#Java i ~ p {
+  color: #5382a1;
+}
+
+#Golang i,
+#Golang i ~ p {
+  color: #29beb0;
+}
+
+#Linux i,
+#Linux i ~ p {
+  color: #000000;
+}
+
+#AWS i,
+#AWS i ~ p {
+  color: #ff9900;
+}
+
+#Docker i,
+#Docker i ~ p {
+  color: #0db7ed;
+}
+
+#SQL i,
+#SQL i ~ p {
   color: #645beb;
 }
+
+#MongoDB i,
+#MongoDB i ~ p {
+  color: #4db33d;
+}
+
+#Redis i,
+#Redis i ~ p {
+  color: #d82c20;
+}
+
+#NGINX i,
+#NGINX i ~ p {
+  color: #009639;
+}
+
+#Django i,
+#Django i ~ p {
+  color: #092e20;
+}
+
+#Express i,
+#Express i ~ p {
+  color: #68a063;
+}
+
+#React i,
+#React i ~ p {
+  color: #61dbfb;
+}
+
+#Tensorflow svg,
+#Tensorflow svg ~ p {
+  color: #ff6f00;
+}
+
+#PyTorch svg,
+#PyTorch svg ~ p {
+  color: #ee4c2c;
+}
+
+#Keras svg,
+#Keras svg ~ p {
+  color: #f52b02;
+}
+
 .software-skill-inline > p {
-  color: #868e96;
+  /* color: #868e96; */
   font-size: 10px;
-}
-.software-skill-inline > i:hover ~ p {
-  color: #645beb;
-}
-
-.software-skill-inline > img {
-  font-size: 6rem;
-  color: #868e96;
-}
-
-.software-skill-inline > img:hover {
-  font-size: 6rem;
-  color: #645beb;
-}
-
-.software-skill-inline > img:hover ~ p {
-  color: #645beb;
 }
