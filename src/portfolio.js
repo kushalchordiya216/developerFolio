@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Kushal Chordiya",
   title: "Hi, I'm Kushal",
-  subTitle: emoji("A Software Developer, passionate about Machine Learning, Data Science & Distributed Systems, with experience building Web applications and microservices with Nodejs, Golang, Python, Java as well as Machine Learning application using Tensorflow, Pytorch, Keras, Scikit-learn and some other cool libraries and frameworks. I'm also interested in Finance, Algorithmic Trading & Big Data Analysis. "),
+  subTitle: emoji("A Software Developer, passionate about Machine Learning, Data Science & Distributed Systems, with experience building Web applications and microservices with Node.js, Golang, Python, Java along with Machine Learning pipelines using Tensorflow, Pytorch, Keras, Scikit-learn and some other cool libraries and frameworks. I'm also interested in Finance, Algorithmic Trading & Big Data Analysis. "),
   resumeLink: "https://drive.google.com/file/d/1ohJHZtbXBrIuaTZYBxQEGhmtDXR_0mYe/view?usp=sharing"
 };
 
@@ -152,10 +152,11 @@ const workExperiences = {
       company: "Zubi Infotech Pvt. Ltd.",
       companylogo: require("./assets/images/zubi.jpeg"),
       date: "April 2020 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Developing infrasturcture for backend applications using the MERN stack & Golang, for educational services offered by the company",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Created an intelligent Adaptive testing platform, which lead to 40% increase in onboarded clients",
+        "An AI-based prcotor system, created with Tensorflow, to detect and flag suspicious behaviour, with a response time of 13ms",
+        "A service for monitoring, benchmarking and metrics collection written in Golang, which improved performance and reduced latency by 2x"
       ]
     },
     {
@@ -163,7 +164,12 @@ const workExperiences = {
       company: "C-DAC, Pune",
       companylogo: require("./assets/images/cdac.jpeg"),
       date: "Januray 2020 – April 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Researching & implementation Novel Neural Network Architectures for security and surveillance",
+      descBullets: [
+        "Did extensive research on modern state-of-the-art Neural Networks for facial tracking and recognition",
+        "Created a novel architecture, focused on speed, which beat previous benchmarks by 12%, capable of 200 FPS",
+        "Model was created from scratch using the PyTorch Framework, along with OpenCV library for image preprocessing"
+      ]
     }
   ]
 };
@@ -173,24 +179,44 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "kushalchordiya216", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
 
 // Some Big Projects You have worked with your company
 
-const bigProjects = {
+const Projects = {
   title: "Projects",
-  subtitle: "SOME PERSONAL PROJECTS I'VE DONE TO HONE MY TECHNICAL SKILLS",
+  subtitle: "Some Personal projects I've worked on to explore my Interests",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      title: "WallStreet Simulator",
+      subtitle:"A Stock Market Simulator,written as a set of modular microservices using the MERN stack, complete with it's own Index and Stock Exchange, where users can buy, sell & trade stocks, futures and other securities. Designed to imitate actual stock exchanges, the project boasts millisecond latencies even at high loads",
+      footerLink: [
+        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Wallstreet"}
+      ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      title:"Single Image Super Resolution",
+      subtitle:emoji("A Deep Generative Adversarial Network, which accepts low resolution images and extrpolates them into 'super-resolved' high resolution counterparts. Created using the Keras DL framework, the model is capable of perfectly upscaling a given image by upto 8x (Now all the detectives in crime TV shows can truly 'enhance' their evidence 😁)"),
+      footerLink: [
+        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Wallstreet"}
+      ]
+    },
+    {
+      title:"Decentralized Peer-to-Peer Network",
+      subtitle: "A cross-platform application to facilitate peer-to-peer networking for messaging and sharing data, without any centrlized administration. Completely free from censorship & spying. Written in Java, the platform becomes more performant as more uers are added, scaling almost linearly",
+      footerLink: [
+        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Wallstreet"}
+      ]
+    },
+    {
+      title: "Network Threat Monitoring using Machine Learning",
+      subtitle: "A machine learning approach towards network security and threat monitoring. Using ensemble models fine tuned for detecting specific kinds of threats, along with real time alerts and logs, the models achieved an accuracy of 99.6% on benchmark datasets. Created with the scikit-learn framework and exposed as an API using a Django Backend",
+      footerLink: [
+        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Wallstreet"}
+      ]
     }
   ]
 };
@@ -216,7 +242,7 @@ const achievementSection = {
       title: "Academic Publications",
       subtitle: "Published a paper entitled Big Data Analysis for Sustainable Cities, at the 11th International Conference on Computing,Communication and Networking Technology",
       image: require("./assets/images/ICCNT.png"),
-      footerLink: [{name:"Paper", url:""},{name:"Code", url:""}]
+      footerLink: [{name:"Paper", url:""},{name:"Link to Code", url:""}]
     },
   ]
 };
@@ -282,4 +308,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, Projects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

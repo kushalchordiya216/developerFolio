@@ -1,17 +1,18 @@
-.achievement-heading {
+.project-heading {
   font-size: 56px;
   font-weight: 400;
   line-height: normal;
   margin: 0px;
 }
-.achievement-subtitle {
+.project-subtitle {
   text-transform: uppercase;
   margin: 0px;
   margin-bottom: 50px;
 }
-.card-image {
-  height: 250px;
-  width: 250px;
+.project-card-image {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
 }
 
 .card-title {
@@ -27,7 +28,9 @@
   font-size: 20px;
 }
 
-.certificate-card {
+.project-card {
+  flex: 1 0 40%;
+
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
@@ -38,14 +41,16 @@
   text-align: center;
 }
 
-.certificate-card:hover {
+.project-card:hover {
+  flex: 1 0 40%;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
 .certificate-image-div {
   text-align: center;
 }
-.achievement-cards-div {
-  display: grid;
+.project-cards-div {
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
@@ -65,16 +70,16 @@
 }
 /* Media Query */
 @media (max-width: 1380px) {
-  .achievement-heading {
+  .project-heading {
     font-size: 40px;
   }
 }
 @media (max-width: 768px) {
-  .achievement-heading {
+  .project-heading {
     font-size: 30px;
     text-align: center;
   }
-  .achievement-subtitle {
+  .project-subtitle {
     font-size: 16px;
     line-height: normal;
     text-align: center;
