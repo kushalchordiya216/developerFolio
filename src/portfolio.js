@@ -10,7 +10,7 @@ const greeting = {
   username: "Kushal Chordiya",
   title: "Hi, I'm Kushal",
   subTitle: emoji("A Software Developer, passionate about Machine Learning, Data Science & Distributed Systems, with experience building Web applications and microservices with Node.js, Golang, Python, Java along with Machine Learning pipelines using Tensorflow, Pytorch, Keras, Scikit-learn and some other cool libraries and frameworks. I'm also interested in Finance, Algorithmic Trading & Big Data Analysis. "),
-  resumeLink: "https://drive.google.com/file/d/1ohJHZtbXBrIuaTZYBxQEGhmtDXR_0mYe/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1CHBV1fzmZmUc5BXygAPwgYqaDTsMZSyU/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -156,7 +156,7 @@ const workExperiences = {
       desc: "Developing infrasturcture for backend applications using the MERN stack & Golang, for educational services offered by the company",
       descBullets: [
         "Created an intelligent Adaptive testing platform, which lead to 40% increase in onboarded clients",
-        "An AI-based prcotor system, created with Tensorflow, to detect and flag suspicious behaviour, with a response time of 13ms",
+        "An AI-based proctor system, created with Tensorflow, to detect and flag suspicious behaviour, with a response time of 13ms",
         "A service for monitoring, benchmarking and metrics collection written in Golang, which improved performance and reduced latency by 2x"
       ]
     },
@@ -202,21 +202,21 @@ const Projects = {
       title:"Single Image Super Resolution",
       subtitle:emoji("A Deep Generative Adversarial Network, which accepts low resolution images and extrpolates them into 'super-resolved' high resolution counterparts. Created using the Keras DL framework, the model is capable of perfectly upscaling a given image by upto 8x (Now all the detectives in crime TV shows can truly 'enhance' their evidence 😁)"),
       footerLink: [
-        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Wallstreet"}
+        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Super-Resolution"}
       ]
     },
     {
       title:"Decentralized Peer-to-Peer Network",
       subtitle: "A cross-platform application to facilitate peer-to-peer networking for messaging and sharing data, without any centrlized administration. Completely free from censorship & spying. Written in Java, the platform becomes more performant as more uers are added, scaling almost linearly",
       footerLink: [
-        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Wallstreet"}
+        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Jtorrent"}
       ]
     },
     {
       title: "Network Threat Monitoring using Machine Learning",
       subtitle: "A machine learning approach towards network security and threat monitoring. Using ensemble models fine tuned for detecting specific kinds of threats, along with real time alerts and logs, the models achieved an accuracy of 99.6% on benchmark datasets. Created with the scikit-learn framework and exposed as an API using a Django Backend",
       footerLink: [
-        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Wallstreet"}
+        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Network-Anomaly-Detection"}
       ]
     }
   ]
@@ -235,7 +235,7 @@ const achievementSection = {
       subtitle: "One of five selected teams in the nationwide Smart India Hackathon, 2019, to present a Deep Learning based vocoder for Accent Translation, to convert accent patterns in speech",
       image: require("./assets/images/SIH.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+        { name: "Certification", url: "https://drive.google.com/file/d/1nBBQLSRmljXlnx5vkk2zJivtEpHcpway/view?usp=sharing" },
         { name: "Project Link", url: "https://github.com/kushalchordiya216/Accent-Translation" }
       ]
     },
@@ -310,6 +310,11 @@ const educationInfo = {
       school: "P.Jog Junior College",
       score: "86.7%",
       date: "June 2015-June 2017"
+    },
+    {
+      program: "Secondary Education",
+      school: "Muktangan English School",
+      score: "94.3%",
     }
   ]
 }

@@ -44,7 +44,7 @@
 
 .project-card:hover {
   flex: 1 0 40%;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 10px 20px 30px -10px;
 }
 .certificate-image-div {
   text-align: center;
