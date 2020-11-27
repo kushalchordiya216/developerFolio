@@ -10,7 +10,7 @@ const greeting = {
   username: "Kushal Chordiya",
   title: "Hi, I'm Kushal",
   subTitle: emoji("A Software Developer, passionate about Machine Learning, Data Science & Distributed Systems, with experience building Web applications and microservices with Node.js, Golang, Python, Java along with Machine Learning pipelines using Tensorflow, Pytorch, Keras, Scikit-learn and some other cool libraries and frameworks. I'm also interested in Finance, Algorithmic Trading & Big Data Analysis. "),
-  resumeLink: "https://drive.google.com/file/d/1CHBV1fzmZmUc5BXygAPwgYqaDTsMZSyU/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1Pe5yul1hEmOV2-mC2k3mndEOwVlpyX9S/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -36,8 +36,8 @@ const skillsSection = {
     emoji("⚡ Integration of third party services & platforms such as AWS / Digital Ocean")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -82,14 +82,14 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Redis",
-      fontAwesomeClassname: "devicon-redis-plain" 
+      fontAwesomeClassname: "devicon-redis-plain"
     },
     {
       skillName: "Django",
       fontAwesomeClassname: "devicon-django-plain"
     },
     {
-      skillName:"Express",
+      skillName: "Express",
       fontAwesomeClassname: "devicon-express-original"
     },
     {
@@ -97,7 +97,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
   ],
-  MLSkills : [
+  MLSkills: [
     {
       skillName: "Tensorflow",
       iconName: "cib:tensorflow"
@@ -149,7 +149,7 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineering Intern",  
+      role: "Software Engineering Intern",
       company: "Zubi Infotech Pvt. Ltd.",
       companylogo: require("./assets/images/zubi.jpeg"),
       date: "April 2020 – Present",
@@ -161,7 +161,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Machine Learning Intern",   
+      role: "Machine Learning Intern",
       company: "C-DAC, Pune",
       companylogo: require("./assets/images/cdac.jpeg"),
       date: "Januray 2020 – April 2020",
@@ -181,7 +181,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "kushalchordiya216", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
 
@@ -193,30 +193,30 @@ const Projects = {
   projects: [
     {
       title: "WallStreet Simulator",
-      subtitle:"A Stock Market Simulator,written as a set of modular microservices using the MERN stack, complete with it's own Index and Stock Exchange, where users can buy, sell & trade stocks, futures and other securities. Designed to imitate actual stock exchanges, the project boasts millisecond latencies even at high loads",
+      subtitle: "A Stock Market Simulator,written as a set of modular microservices using the MERN stack, complete with it's own Index and Stock Exchange, where users can buy, sell & trade stocks, futures and other securities. Designed to imitate actual stock exchanges, the project boasts millisecond latencies even at high loads",
       footerLink: [
-        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Wallstreet"}
+        { name: "Link to Code", url: "https://github.com/kushalchordiya216/Wallstreet" }
       ]
     },
     {
-      title:"Single Image Super Resolution",
-      subtitle:emoji("A Deep Generative Adversarial Network, which accepts low resolution images and extrpolates them into 'super-resolved' high resolution counterparts. Created using the Keras DL framework, the model is capable of perfectly upscaling a given image by upto 8x (Now all the detectives in crime TV shows can truly 'enhance' their evidence 😁)"),
+      title: "Single Image Super Resolution",
+      subtitle: emoji("A Deep Generative Adversarial Network, which accepts low resolution images and extrpolates them into 'super-resolved' high resolution counterparts. Created using the Keras DL framework, the model is capable of perfectly upscaling a given image by upto 8x (Now all the detectives in crime TV shows can truly 'enhance' their evidence 😁)"),
       footerLink: [
-        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Super-Resolution"}
+        { name: "Link to Code", url: "https://github.com/kushalchordiya216/Super-Resolution" }
       ]
     },
     {
-      title:"Decentralized Peer-to-Peer Network",
+      title: "Decentralized Peer-to-Peer Network",
       subtitle: "A cross-platform application to facilitate peer-to-peer networking for messaging and sharing data, without any centrlized administration. Completely free from censorship & spying. Written in Java, the platform becomes more performant as more uers are added, scaling almost linearly",
       footerLink: [
-        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Jtorrent"}
+        { name: "Link to Code", url: "https://github.com/kushalchordiya216/Jtorrent" }
       ]
     },
     {
       title: "Network Threat Monitoring using Machine Learning",
       subtitle: "A machine learning approach towards network security and threat monitoring. Using ensemble models fine tuned for detecting specific kinds of threats, along with real time alerts and logs, the models achieved an accuracy of 99.6% on benchmark datasets. Created with the scikit-learn framework and exposed as an API using a Django Backend",
       footerLink: [
-        {name:"Link to Code", url:"https://github.com/kushalchordiya216/Network-Anomaly-Detection"}
+        { name: "Link to Code", url: "https://github.com/kushalchordiya216/Network-Anomaly-Detection" }
       ]
     }
   ]
@@ -240,11 +240,17 @@ const achievementSection = {
       ]
     },
     {
-      title: "Academic Publications",
+      title: "Academic Publication",
       subtitle: "Published a paper entitled Big Data Analysis for Sustainable Cities, at the 11th International Conference on Computing,Communication and Networking Technology",
       image: require("./assets/images/ICCNT.png"),
-      footerLink: [{name:"Paper", url:""},{name:"Link to Code", url:""}]
+      footerLink: [{ name: "Paper", url: "" }, { name: "Link to Code", url: "" }]
     },
+    {
+      title: "Academic Publication",
+      subtitle: "Published a paper entitled DPSRGAN:Dilation Patch Super Resolution Generative Adversarial Networks at the 6th International Conference for Convergence of Technology",
+      footerLink: [{ name: "Paper", url: "" }, { name: "Link to Code", url: "" }],
+      image: require("./assets/images/I2CT.jpg")
+    }
   ]
 };
 
@@ -298,7 +304,7 @@ const podcastSection = {
 const educationInfo = {
   title: emoji("Education 🎓"),
   subtitle: "My Academic journey so far",
-  education : [
+  education: [
     {
       program: "B.E, Computer Engineering",
       school: "Pune Institute Of Computer Technology",
@@ -330,7 +336,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-  
+  userName: "twitter"//Replace "twitter" with your twitter username without @
+
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, Projects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails, educationInfo};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, Projects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails, educationInfo };
