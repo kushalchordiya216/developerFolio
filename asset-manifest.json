@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.7077da1f.chunk.css",
-    "main.js": "/developerFolio/static/js/main.aefca557.chunk.js",
-    "main.js.map": "/developerFolio/static/js/main.aefca557.chunk.js.map",
-    "runtime-main.js": "/developerFolio/static/js/runtime-main.2ae8ae7b.js",
-    "runtime-main.js.map": "/developerFolio/static/js/runtime-main.2ae8ae7b.js.map",
-    "static/js/2.f17c3980.chunk.js": "/developerFolio/static/js/2.f17c3980.chunk.js",
-    "static/js/2.f17c3980.chunk.js.map": "/developerFolio/static/js/2.f17c3980.chunk.js.map",
+    "main.js": "/developerFolio/static/js/main.af61ad89.chunk.js",
+    "main.js.map": "/developerFolio/static/js/main.af61ad89.chunk.js.map",
+    "runtime-main.js": "/developerFolio/static/js/runtime-main.e99f2051.js",
+    "runtime-main.js.map": "/developerFolio/static/js/runtime-main.e99f2051.js.map",
+    "static/js/2.5a91c7bd.chunk.js": "/developerFolio/static/js/2.5a91c7bd.chunk.js",
+    "static/js/2.5a91c7bd.chunk.js.map": "/developerFolio/static/js/2.5a91c7bd.chunk.js.map",
     "static/css/3.cffc9e54.chunk.css": "/developerFolio/static/css/3.cffc9e54.chunk.css",
-    "static/js/3.cbb459e8.chunk.js": "/developerFolio/static/js/3.cbb459e8.chunk.js",
-    "static/js/3.cbb459e8.chunk.js.map": "/developerFolio/static/js/3.cbb459e8.chunk.js.map",
+    "static/js/3.f7f77170.chunk.js": "/developerFolio/static/js/3.f7f77170.chunk.js",
+    "static/js/3.f7f77170.chunk.js.map": "/developerFolio/static/js/3.f7f77170.chunk.js.map",
     "index.html": "/developerFolio/index.html",
-    "precache-manifest.535d23c5ffbf7f7f360fd752a64d9068.js": "/developerFolio/precache-manifest.535d23c5ffbf7f7f360fd752a64d9068.js",
+    "precache-manifest.2f4210240a404bbc6f5f1144b86b7aba.js": "/developerFolio/precache-manifest.2f4210240a404bbc6f5f1144b86b7aba.js",
     "service-worker.js": "/developerFolio/service-worker.js",
     "static/css/3.cffc9e54.chunk.css.map": "/developerFolio/static/css/3.cffc9e54.chunk.css.map",
     "static/css/main.7077da1f.chunk.css.map": "/developerFolio/static/css/main.7077da1f.chunk.css.map",
@@ -24,9 +24,9 @@
     "static/media/skill.svg": "/developerFolio/static/media/skill.34409398.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ae8ae7b.js",
-    "static/js/2.f17c3980.chunk.js",
+    "static/js/runtime-main.e99f2051.js",
+    "static/js/2.5a91c7bd.chunk.js",
     "static/css/main.7077da1f.chunk.css",
-    "static/js/main.aefca557.chunk.js"
+    "static/js/main.af61ad89.chunk.js"
   ]
 }
