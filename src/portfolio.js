@@ -129,11 +129,11 @@ const techStack = {
     },
     {
       Stack: "Data Structures & Algorithms",
-      progressPercentage: "75%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Cloud Computing",
-      progressPercentage: "40%"
+      progressPercentage: "45%"
     },
     {
       Stack: "Frontend Development",
