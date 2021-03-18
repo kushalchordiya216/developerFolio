@@ -121,11 +121,11 @@ const techStack = {
   experience: [
     {
       Stack: "Backend Development",  //Insert stack or technology you have experience in
-      progressPercentage: "85%"  //Insert relative proficiency in percentage
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Machine Learning",
-      progressPercentage: "85%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Data Structures & Algorithms",
@@ -243,12 +243,12 @@ const achievementSection = {
       title: "Academic Publication",
       subtitle: "Published a paper entitled Big Data Analysis for Sustainable Cities, at the 11th International Conference on Computing,Communication and Networking Technology",
       image: require("./assets/images/ICCNT.png"),
-      footerLink: [{ name: "Paper", url: "" }, { name: "Link to Code", url: "" }]
+      footerLink: [{ name: "Paper", url: "https://drive.google.com/file/d/1d4fFoCtoTmR5m1pCdxx8mqpS8l4xjxNk/view?usp=sharing" }]
     },
     {
       title: "Academic Publication",
       subtitle: "Published a paper entitled DPSRGAN:Dilation Patch Super Resolution Generative Adversarial Networks at the 6th International Conference for Convergence of Technology",
-      footerLink: [{ name: "Paper", url: "" }, { name: "Link to Code", url: "" }],
+      footerLink: [{ name: "Paper", url: "https://drive.google.com/file/d/1d4fFoCtoTmR5m1pCdxx8mqpS8l4xjxNk/view?usp=sharing" }],
       image: require("./assets/images/I2CT.jpg")
     }
   ]
