@@ -150,9 +150,20 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineering Intern",
+      company: "IBM",
+      companylogo: require("./assets/images/IBM-logo-2.png"),
+      date: "August 2020 - October 2020",
+      desc: "Developing a framework for deploying general purpose chatbots over different messaging and voice services",
+      descBullets: [
+        "A cloud-based chatbot for communicating with and assisting citizens. Originally designed to gather crucial information for citizen health services during COVID-19 pandemic but can be extended to several use-cases.",
+        "Integrated the service with several communication platforms, like SMS, VoIP, WhatsApp, etc and designed to be extensible.",
+        "Capable of handling hundreds of clients simultaneously in real- time and storing relevant data in a cloud database for analysis and dataextraction."]
+    },
+    {
+      role: "Software Engineering Intern",
       company: "Zubi Infotech Pvt. Ltd.",
       companylogo: require("./assets/images/zubi.jpeg"),
-      date: "April 2020 – Present",
+      date: "April 2020 – July 2020",
       desc: "Developing infrasturcture for backend applications using the MERN stack & Golang, for educational services offered by the company",
       descBullets: [
         "Created an intelligent Adaptive testing platform, which lead to 40% increase in onboarded clients",
